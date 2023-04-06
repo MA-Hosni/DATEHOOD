@@ -12,6 +12,24 @@
   <link rel="stylesheet" href="./style.css">
 </head>
 <body>
+   <!---=========================== PAGE PRELOADER ===========================--->
+ <div id="preloader">
+  <div class="loader">
+    <div class="logo"></div>
+    <div class="text">
+      <p>DATEHOOD</p>
+    </div>
+  
+  
+    <script>
+      const text = document.querySelector('.text p');
+      text.innerHTML = text.innerText.split("").map(
+        (char, i) => `<span style="transform:rotate(${i * 18}deg)">${char}</span>`
+      ).join("")
+    </script>
+  </div>
+</div>
+ <!---=========================== PAGE PRELOADER END ===========================--->
   <nav>
     <div class="container">
       <h2 class="log">DATEHOOD</h2>
@@ -745,6 +763,7 @@
     </div>
   </div>
 </div>
+
 
 <script src="./index.js"></script>
 </body>

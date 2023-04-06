@@ -10,7 +10,9 @@ loginButton.addEventListener("click", () => {
   container.classList.remove("right-panel-active");
 });
 
-
+function auth(){
+  window.location.assign("index.html");
+};
 // const loginBtn = document.getElementById("login-btn");
 
 // loginBtn.addEventListener("click", () => {

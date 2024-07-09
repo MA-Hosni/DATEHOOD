@@ -12,7 +12,7 @@ import RightSidebar from "@/components/shared/RightSidebar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL('http://localhost:3000'),
+  metadataBase: new URL(`${process.env.WEBSITE_URL}`),
   title: "Datehood",
   description: "A Social Media Platform Clone For Meta Threads Application",
   generator: 'Next.js',

@@ -12,8 +12,24 @@ import RightSidebar from "@/components/shared/RightSidebar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
+  metadataBase: new URL('http://localhost:3000'),
   title: "Datehood",
   description: "A Social Media Platform Clone For Meta Threads Application",
+  generator: 'Next.js',
+  applicationName: 'Datehood',
+  keywords: ['Social', 'Social media', 'connect with people'],
+  openGraph: {
+    title: 'Datehood',
+    description: 'A Social Media Platform Clone For Meta Threads Application',
+    images: '/ogimg.png'
+  },
+  twitter: {
+    card: 'summary_large_image',
+    site: '@mohamedalihosni',
+    title: 'Datehood',
+    description: 'A Social Media Platform Clone For Meta Threads Application',
+    images: '/ogimg.png'
+  }
 };
 
 export default function RootLayout({

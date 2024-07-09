@@ -41,3 +41,4 @@ Check out our [Next.js deployment documentation](https://nextjs.org/docs/deploym
 - npm install mongoose svix
 - npm install tailwindcss-animate
 - npx shadcn-ui@latest init
+- npx shadcn-ui@latest add form input textarea tabs

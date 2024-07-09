@@ -12,7 +12,6 @@ import RightSidebar from "@/components/shared/RightSidebar";
 const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
-  metadataBase: new URL(`${process.env.WEBSITE_URL}`),
   title: "Datehood",
   description: "A Social Media Platform Clone For Meta Threads Application",
   generator: 'Next.js',
@@ -21,14 +20,22 @@ export const metadata: Metadata = {
   openGraph: {
     title: 'Datehood',
     description: 'A Social Media Platform Clone For Meta Threads Application',
-    images: '/ogimg.png'
+    images: [
+      {
+        url: '/ogimg.png',
+      }
+    ]
   },
   twitter: {
     card: 'summary_large_image',
     site: '@mohamedalihosni',
     title: 'Datehood',
     description: 'A Social Media Platform Clone For Meta Threads Application',
-    images: '/ogimg.png'
+    images: [
+      {
+        url: '/ogimg.png',
+      }
+    ]
   }
 };
 

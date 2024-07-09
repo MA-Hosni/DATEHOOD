@@ -13,13 +13,18 @@ const inter = Inter({ subsets: ["latin"] });
 
 export const metadata: Metadata = {
   title: "Datehood",
-  description: "A Social Media Platform Clone For Meta Threads Application",
+  description: "Create an account or log in to DATEHOOD - A simple, fun & creative way to connect with friends and communities with simple tweets",
   generator: 'Next.js',
+  authors: [
+    {
+      name: 'mohamed ali hosni',
+    }
+  ],
   applicationName: 'Datehood',
-  keywords: ['Social', 'Social media', 'connect with people'],
+  keywords: ['Social', 'Social media', 'connect with people', 'tweets', 'threads', 'networking', 'connect', 'friends', 'community'],
   openGraph: {
     title: 'Datehood',
-    description: 'A Social Media Platform Clone For Meta Threads Application',
+    description: 'Create an account or log in to DATEHOOD - A simple, fun & creative way to connect with friends and communities with simple tweets',
     images: [
       {
         url: '/ogimg.png',
@@ -28,9 +33,9 @@ export const metadata: Metadata = {
   },
   twitter: {
     card: 'summary_large_image',
-    site: '@mohamedalihosni',
+    creator: 'mohamedalihosni',
     title: 'Datehood',
-    description: 'A Social Media Platform Clone For Meta Threads Application',
+    description: 'Create an account or log in to DATEHOOD - A simple, fun & creative way to connect with friends and communities with simple tweets',
     images: [
       {
         url: '/ogimg.png',
